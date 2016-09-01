@@ -1,0 +1,18 @@
+http_port: 8081
+
+log_dir: "./logs"
+request_log_enable: true
+postgresql_cluster:
+  user: "postgres"
+  db_name: "label"
+  password: "abc.1234%"
+  check_interval: 60
+
+  master:
+    port: 5432
+    host: "192.168.2.131"
+
+admin_password: "123456"
+user_passcode_encrypt_key: "jiaonimamaxiwazihaobuhao"
+token_valid_duration: 777600
+
